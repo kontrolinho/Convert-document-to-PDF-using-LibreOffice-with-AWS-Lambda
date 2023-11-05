@@ -78,9 +78,12 @@ At this project will be used Python 3.8
 2. Create Function
 3. Select Author from Scratch
 4. Under **Basic Information** do the following
-  a. At Function name, enter your function name.
+
+a. At Function name, enter your function name.
+  
   b. Runtime, **select Python 3.8**.
-5. Leave all others options as default.
+
+6. Leave all others options as default.
 
 ![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda5.png?raw=true)
 
@@ -108,10 +111,14 @@ arn:aws:lambda:us-east-2:764866452798:layer:libreoffice-brotli:1
 1. Open your Function
 2. Scroll down to Layers, and select Add a Layer.
 3. Under **Choose a Layer** do the following
+
    a. Select **Specify an ARN**
+
    b. Paste your selected ARN
+
    c. Click at Verify
-4. Add.
+
+5. Add.
 
 ![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda7.png?raw=true)
 
@@ -133,7 +140,7 @@ Let's create an Access Key.
 
 -- **Function Code**
  1. At AWS Lambda Page, click at Functions page, and select your function.
- 2. At **Code**, under **Code Source**, paste the code available at this Github Repo. 
+ 2. At **Code**, under **Code Source**, paste the [code available at this Github Repo](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/converter.py). 
  3. **Please, change only the following variables:**
   
   **ACCESS_KEY : Access key from an IAM User with the S3 Permission.**
