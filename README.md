@@ -143,8 +143,11 @@ Let's create an Access Key.
  2. At **Code**, under **Code Source**, paste the [code available at this Github Repo](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/converter.py). 
  3. **Please, change only the following variables:**
   
+  
   **ACCESS_KEY : Access key from an IAM User with the S3 Permission.**
+  
   **SECRET_ACCESS_KEY : Secret Access Key from an IAM User with S3 Permission.**
+  
   **output_bucket : DESTINATION S3 Bucket.**
 
   ![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda9.png?raw=true)
