@@ -86,7 +86,7 @@ At this project will be used Python 3.8
 
 6. Open your recent created **Brotlipy-Layer** at **Layers Page**, and copy the **ARN**.
 
-![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda13.png?raw=true)
+![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/lambda13.png?raw=true)
 
 7. Back to Functions Page, scrolldown to **Layers** and click at **Add a Layer**.
 8. Under **Choose a Layer**, select **Specify an ARN**
@@ -94,7 +94,7 @@ At this project will be used Python 3.8
 10. Click at **Verify**
 11. Add.
 
-![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda14.png?raw=true)
+![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/lambda14.png?raw=true)
 
 
 -- **PreBuilt AWS Region Layer ARN**
@@ -157,7 +157,7 @@ Specify the bucket to trigger when a document is uploaded, do the following.
 5. Mark the **I Acknowledge... box.**
 6. Add.
 
-![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda10.png?raw=true)
+![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/lambda10.png?raw=true)
 
 -- **Configure Lambda**
 
@@ -167,14 +167,14 @@ Now it's time to modify the Lambda Function Memory size and Timeout.
 2. Scrolldown to **Configuration** Label, and select **General Configuration.**
 3. Click at Edit.
 
-![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda11.png?raw=true)
+![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/lambda11.png?raw=true)
 
 Now, under **Basic Settings**, let's make some changes.
 
 **Memory: 1920MB
 Timeout: 10 minutes**
 
-![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda12.png?raw=true)
+![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/lambda12.png?raw=true)
 
 Sometimes the process of unzipping of Brotli is heavy, and uses a lot of memory, and takes a long time to start up.
 
@@ -183,6 +183,6 @@ Don't worry, you can read more at [Configuring Lambda Function Options](https://
 
 # Conclusion
 That's all folks.
-![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda15.png?raw=true)
-![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda16.png?raw=true)
+![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/lambda15.png?raw=true)
+![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/lambda16.png?raw=true)
 ![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda17.png?raw=true)
