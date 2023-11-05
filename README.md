@@ -148,7 +148,7 @@ Let's create an Access Key.
   
   **SECRET_ACCESS_KEY : Secret Access Key from an IAM User with S3 Permission.**
   
-  **output_bucket : DESTINATION S3 Bucket.**
+  **output_bucket : NAME of DESTINATION S3 Bucket.**
 
   ![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda9.png?raw=true)
 
