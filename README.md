@@ -8,8 +8,6 @@ Thankfully LibreOffice is an open-source tool, but unfortunately, LibreOffice is
 
 When the file is uploaded to a S3 bucket, the Lambda will convert this file to PDF using LibreOffice and sending to a destination S3 Bucket, as you can see in the schematic below.
 
-![alt text](https://github.com/kontrolinho/Convert-document-to-PDF-using-LibreOffice-with-AWS-Lambda/blob/main/Images/Lambda1.png?raw=true)
-
 
 ## Create 2 S3 Bucket
 
